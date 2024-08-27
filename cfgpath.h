@@ -36,7 +36,9 @@
 #if defined(_MSC_VER) || defined(__MINGW32__)
 #define inline __inline
 #include <direct.h>
+#ifndef mkdir
 #define mkdir _mkdir
+#endif
 #endif
 
 #ifdef __unix__

@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int main() {
+int main(void) {
     char* config_file = malloc(MAX_PATH * sizeof(char));
     char* config_folder = malloc(MAX_PATH * sizeof(char));
     char* data_folder = malloc(MAX_PATH * sizeof(char));
